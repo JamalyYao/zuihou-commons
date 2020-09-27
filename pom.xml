@@ -9,7 +9,7 @@
     <packaging>pom</packaging>
     <name>${project.artifactId}</name>
     <description>zuihou项目公共模块</description>
-    <url>https://github.com/zuihou/zuihou-commons</url>
+    <url></url>
 
     <modules>
         <module>zuihou-core</module>
@@ -55,7 +55,7 @@
         <developer>
             <id>zuihou</id>
             <name>zuihou</name>
-            <email>306479353@qq.com</email>
+            <email></email>
             <roles>
                 <role>Java Development Engineer</role>
             </roles>
@@ -281,6 +281,7 @@
             <!-- 打包的 -P参数 -->
             <id>release</id>
             <build>
+                <pluginManagement>
                 <plugins>
                     <!-- Source -->
                     <plugin>
@@ -326,6 +327,7 @@
                         </executions>
                     </plugin>
                 </plugins>
+                </pluginManagement>
             </build>
             <distributionManagement>
                 <snapshotRepository>

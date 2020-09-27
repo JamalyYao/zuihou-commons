@@ -551,6 +551,7 @@
             <!-- 打包的 -P参数 -->
             <id>release</id>
             <build>
+                <pluginManagement>
                 <plugins>
                     <!-- Source -->
                     <plugin>
@@ -587,6 +588,7 @@
                         </executions>
                     </plugin>
                 </plugins>
+                </pluginManagement>
             </build>
             <distributionManagement>
                 <snapshotRepository>
